@@ -1,0 +1,63 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.ping-pong-container {
+    border: 1px solid black;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.score {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.blue-num {
+    color: blue;
+}
+
+.green-text {
+    color: green;
+}
+
+.red-num {
+    color: red;
+}
+
+.description {
+    font-size: 20px;
+}
+
+.btn {
+    margin-right: 10px;
+    border-radius: 0px;
+    border: 2px solid black;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.blue-btn {
+    background-color: blue;
+}
+
+.red-btn {
+    background-color: red;
+    border-radius: 4px;
+}
+
+.reset-btn {
+    background-color: green;
+}
