@@ -1,6 +1,6 @@
 let blueBtn = document.querySelector(".blue-btn")
 let redBtn = document.querySelector(".red-btn")
-let resetBtn = document.querySelector("reset-btn")
+let resetBtn = document.querySelector(".reset-btn")
 let blueNum = document.querySelector(".blue-num")
 let redNum = document.querySelector(".red-num")
 
@@ -17,10 +17,10 @@ redBtn.addEventListener("click", function () {
     redNum.textContent = y
 })
 
+let z = 0
 resetBtn.addEventListener("click", function () {
 
-
-    redNum.textContent = "0"
+    redNum.textContent = z
     blueNum.textContent = z
 
 })
