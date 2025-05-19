@@ -17,10 +17,10 @@ redBtn.addEventListener("click", function () {
     redNum.textContent = y
 })
 
-let z = 0
 resetBtn.addEventListener("click", function () {
-
-    redNum.textContent = z
-    blueNum.textContent = z
+    x = 0
+    y = 0
+    redNum.textContent = x
+    blueNum.textContent = y
 
 })
